@@ -1,1 +1,12 @@
-
+.top-text {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    flex: 1;
+}
+.custom-link {
+    color: black;
+    font-size: 4;
+    text-decoration: none;
+    font-family: 'mamelon3.5', sans-serif;
+}
