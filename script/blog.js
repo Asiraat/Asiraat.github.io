@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', async () => {
     const blogListElement = document.getElementById('blog-list');
     const blogPosts = [
-       'https://Asiraat.github.io/Asiraat.github.io/blogs/example1.md',
-        // 追加のブログ記事へのパスをここに追加します
+       'https://Asiraat.github.io/blogs/example1.md',
+        // ブログ記事へのパスをここに追加
     ];
 
     for (const post of blogPosts) {
