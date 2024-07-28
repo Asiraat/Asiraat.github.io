@@ -1,0 +1,60 @@
+.box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 80px auto 0;
+}
+/* スマートフォン用の調整 */
+@media screen and (max-width: 767px) {
+  .box-container {
+    width: 90%;
+    margin-top: 30px;
+  }
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333333;
+  background-color: #ffffff;
+  font-size: 4;
+  width: 60%;
+　max-width: 400px;
+  height: 60px;
+  border-radius: 18px;
+  box-shadow: 8px 8px 8px 0px rgba(255, 127, 126, 0.45), -2px -2px 20px 0px rgba(255, 127, 126, 0.4);
+  margin-bottom: 40px;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+  font-family: 'mamelon3.5', sans-serif;
+}
+
+.box.animate {
+  animation: pulse .4s forwards;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1.12);
+    opacity: 0.8;
+  }
+  40% { 
+    transform: scale(.98); 
+    opacity: 0.8;
+  }
+  60% { 
+    transform: scale(1.08); 
+    opacity: 0.8;
+  }
+  80% {
+    transform: scale(1.02);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1.05);
+    opacity: 0.8;
+  }
+}
