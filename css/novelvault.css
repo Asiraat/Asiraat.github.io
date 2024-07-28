@@ -1,0 +1,23 @@
+.box-container {
+　　 margin-top: 120px;
+    align-items: center;
+    font-family: 'mamelon3.5', sans-serif;
+}
+
+.text {
+  margin-top: 80px;
+  text-align: center;
+  text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.4);
+}
+.text p {
+  margin: 0;
+  font-family: 'mamelon3.5', sans-serif;
+}
+
+.novel-title {
+  padding-left: 2ch;
+}
+.novel-title p {
+  margin: 0;
+  font-family: 'mamelon3.5', sans-serif;    
+}
