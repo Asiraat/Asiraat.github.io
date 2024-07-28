@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const blogListElement = document.getElementById('blog-list');
     const blogPosts = [
        'https://Asiraat.github.io/blogs/example1.md',
+       'https://raw.githubusercontent.com/Asiraat/Asiraat.github.io/main/blogs/example1.md'
         // ブログ記事へのパスをここに追加
     ];
 
