@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', async () => {
     const blogListElement = document.getElementById('blog-list');
     const blogPosts = [
-        '/blogs/example1.md'
+        'https://raw.githubusercontent.com/Asiraat/Asiraat.github.io/main/blogs/example1.md'
         // ブログ記事の相対パス
     ];
 
