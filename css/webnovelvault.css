@@ -1,0 +1,76 @@
+body {
+    font-family: 'mamelon3.5', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: calc(2em + 20px + 50px); /* トップバーの高さ + パディング + 追加の余白 */
+}
+
+#tag-filter-container {
+    margin-bottom: 20px;
+}
+
+#toggle-tag-filter {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #BEFF7D;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    font-family: 'mamelon3.5', sans-serif;
+}
+
+#tag-filter {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+#tag-filter.hidden {
+    display: none;
+}
+
+#tag-filter label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.box {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.box:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.box h3 a {
+    color: black;
+}
+
+.tags {
+    margin-top: 10px;
+}
+
+.tag {
+    background-color: #e0e0e0;
+    padding: 3px 8px;
+    border-radius: 15px;
+    margin-right: 5px;
+    font-size: 0.8em;
+    display: inline-block;
+}
